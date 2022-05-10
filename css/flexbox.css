@@ -1,0 +1,38 @@
+.container{
+    border: 2px solid red;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid black;
+    font-weight: bold;
+    color: white;
+}
+
+
+.a{
+    background-color: red;
+}
+
+.b{
+    background-color: blue;
+}
+
+.c{
+    background-color: brown;
+}
+
+.d{
+    background-color: green;
+}
+
+.e{
+    background-color: orange;
+}
+
+.f{
+    background-color: purple;
+}
