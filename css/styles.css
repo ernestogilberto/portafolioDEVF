@@ -1,0 +1,93 @@
+.debug{
+    outline: 2px solid #ff0000;
+}
+
+.title{
+    font-family: Arial;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: right;
+    /*width: 20%;*/
+    /*display: inline;*/
+}
+
+span{
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 160px;
+}
+
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #ee2222;
+    padding: .5rem;
+    color: white;
+    border: 3px solid rgba(25,25,25, 0.3);
+    border-radius: 5px;
+}
+
+a{
+    width: 160px;
+    /*display: block;*/
+}
+
+.btn:hover{
+    background-color: #2222ff;
+}
+
+.left{
+    background-color: rgba(255,0,0,.5);
+    width: 50%;
+    float: left;
+}
+
+.right{
+    background-color: rgba(0,255,0,.5);
+    width: 50%;
+    float: right;
+}
+
+.bottom{
+    background-color: rgba(0,0,255,.5);
+    clear: both;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.container{
+    position: relative;
+}
+
+.one{
+    background-color:yellow;
+    width: 20%;
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 6;
+}
+
+.two{
+    background-color:red;
+    width: 20%;
+    height: 10rem;
+    position: absolute;
+    top: 20px;
+    left: 4rem;
+    z-index: 5;
+}
+
+.three{
+    background-color:blue;
+    width: 20%;
+    height: 10rem;
+    position: absolute;
+    top:40px;
+    left: 6rem;
+}

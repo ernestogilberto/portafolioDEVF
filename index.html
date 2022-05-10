@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <div>
             <a href="./index.html"><img src="./images/img.png" alt="Logotipo principal"></a>
+            <span>Gilberto Valenzuela</span>
             <span>Gilberto Valenzuela</span>
         </div>
         <nav>
@@ -19,24 +24,24 @@
     </header>
     <main>
         <div>
-            <h1>👋 Hi, I'm Gilberto Valenzuela</h1>
+            <h1 class="title debug">👋 Hi, I'm Gilberto Valenzuela</h1>
             <p>I'm a web developer from Southampton, UK. Currently lead developer at a
                 local agency, Fhoke. In my spare time I enjoy DIY, gaming and building my
                 own projects. My preferred tools are PHP, Laravel and Vue.js.</p>
-            <p>I'm on <a href="https://www.github.com">GitHub</a>, Twitter and Instagram.</p>
+            <p>I'm on <a class="debug" href="https://www.github.com">GitHub</a>, Twitter and Instagram.</p>
         </div>
         
-        <h2>Recent Articiles</h2>
+        <h2 >Recent Articiles</h2>
         <hr>
         
-        <article>
+        <article class="left">
             <h3><a href="#">Multi-Image Uploader with Laravel, JavaScript & Tailwind</a></h3>
-            <a href="#">Laravel</a>
+            <a download href="#" class="btn">Laravel</a>
             <p>02 May 2022</p>
             <a href="#">Read Articles</a>
         </article>
     
-        <article>
+        <article class="right">
             <h3><a href="#">Touchstone – WordPress Unit & Integration Tests</a></h3>
             <a href="#">WordPress</a>
             <p>The official way of running the WordPress testsuite is horribly complicated
@@ -46,7 +51,7 @@
             <a href="#">Read Articles</a>
         </article>
     
-        <article>
+        <article class="bottom">
             <h3><a href="#">Multi-Image Uploader with Laravel, JavaScript & Tailwind</a></h3>
             <a href="#">Laravel</a>
             <p>02 May 2022</p>
@@ -61,5 +66,12 @@
             <a href="#">Built with HTML</a>
         </div>
     </footer>
+    
+    <div class="container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+    
 </body>
 </html>
