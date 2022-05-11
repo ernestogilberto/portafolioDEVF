@@ -38,14 +38,10 @@ a{
 
 .left{
     background-color: rgba(255,0,0,.5);
-    width: 50%;
-    float: left;
 }
 
 .right{
     background-color: rgba(0,255,0,.5);
-    width: 50%;
-    float: right;
 }
 
 .bottom{
@@ -90,4 +86,34 @@ header{
     position: absolute;
     top:40px;
     left: 6rem;
+}
+
+@media screen and (min-width: 480px){
+    :root{
+        font-size: 8px;
+    }
+
+    .left{
+        width: 50%;
+        float: left;
+    }
+
+    .right{
+        width: 50%;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 768px){
+    :root{
+        font-size: 16px;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+    }
 }

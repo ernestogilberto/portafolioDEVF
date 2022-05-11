@@ -1,5 +1,16 @@
 .container{
     border: 2px solid red;
+    display: flex;
+    height: 600px;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap-reverse;*/
+    /*flex-flow: row nowrap;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    flex-wrap: nowrap;
+    /*justify-content: flex-end;*/
+    align-content: space-evenly;
+    /*gap: 20px 50px;*/
 }
 
 .item{
@@ -15,22 +26,36 @@
 
 .a{
     background-color: red;
+    /*order: 0;*/
+    flex: 1;
 }
 
 .b{
     background-color: blue;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 2;*/
+    /*flex-basis: 150px;*/
 }
 
 .c{
     background-color: brown;
+    /*height:50px;*/
+    /*line-height: 50px;*/
+    /*flex-grow: 4;*/
+    /*flex-shrink: 8;*/
 }
 
 .d{
     background-color: green;
+    /*height:200px;*/
+    /*line-height: 200px;*/
+    /*order: -1;*/
 }
 
 .e{
     background-color: orange;
+    /*height:300px;*/
+    /*line-height: 300px;*/
 }
 
 .f{
